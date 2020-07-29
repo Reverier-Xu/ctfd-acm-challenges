@@ -24,5 +24,7 @@ services:
             - /tmp:/tmp
 ```
 
+Before run `docker-compose build`, please add the contents of `requirements.txt` in this project directory to the `requirements.txt` in the CTFd directory.
+
 run `docker pull mssctf/runner_c_cpp` before first launch  
 to support more languages, see `mssctf/runner_*`
